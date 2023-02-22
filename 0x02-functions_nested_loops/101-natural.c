@@ -7,13 +7,13 @@
  */
 int main(void)
 {
-	int i, z;
+	int a, b;
 
-	for (i = 1; a < 1024; i++)
+	for (a = 1; a < 1024; a++)
 {
-	if ((i % 3) == 0 || (i % 5) == 0)
-	z += i;
+	if ((a % 3) == 0 || (a % 5) == 0)
+	b += a;
 }
-	printf("%d\n", z);
+	printf("%d\n", b);
 	return (0);
 }
