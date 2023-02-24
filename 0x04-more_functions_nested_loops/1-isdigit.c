@@ -3,7 +3,7 @@
 /**
  * * _isdigit - funtion to check for a digit
  * * @c: an integer argument
- * * Return Always 0(success)
+ * * Return: success
  */
 int _isdigit(int c)
 {
