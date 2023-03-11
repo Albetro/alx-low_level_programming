@@ -9,17 +9,25 @@
  */
 int main(int argc, char *argv[])
 {
-	int result, num1, num2;
+	int result = 0, num, i, j, k;
 
-	if (argc != 3)
+	for (i = 1; i < argc; i++)
 	{
-		printf("%s\n", "Error");
-		return (1);
+		for (j = 0; argv[i][j] != '\0'; j++)
+		{
+			if (argv[i][j] > '9' || argv[i][j] < '0')
+			{
+			printf("%s\n", "Error");
+			return (1);
+			}
+		}
 	}
-	num1 = atoi(argv[1]);
-	num2 = atoi(argv[2]);
-	result = num1 * num2;
 
+	for (k = 1; k < argc; k++)
+	{
+		num = atoi(argv[k]);
+		result += num;
+	}
 	printf("%d\n", result);
 	return (0);
 }
