@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * a code that  creates a file
+ * create_file - creates a file
  * @filename: filename.
  * @text_content: content writed in the file.
  *
