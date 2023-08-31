@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Defines the perimeter measuring function of the island"""
+"""Defines the island  perimeter measuring function."""
 
 def island_perimeter(grid):
     """return the perimeter of the island
